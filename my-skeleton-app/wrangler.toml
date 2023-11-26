@@ -1,0 +1,10 @@
+name = "your-project-name"
+account_id = "your-cloudflare-account-id"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "yyyy-mm-dd"
+
+[site]
+bucket = "./.svelte-kit/cloudflare"
+entry-point = "workers-site"
